@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const PORT = 10100;
+const PORT = 10000;
 
 // Crear el servidor de express
 const app = express();
