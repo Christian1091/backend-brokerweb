@@ -38,7 +38,7 @@ const envioCorreo = (req, res) => {
 
         return res.json({
             ok: true,
-            msg: result
+            msg: resultng
         });
     })
 

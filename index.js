@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
+const PORT = 10100;
+
 // Crear el servidor de express
 const app = express();
 
@@ -18,6 +20,6 @@ app.use(bodyParser.json());
 // Rutas
 app.use('/api/contact', require('./routes/contact'));
 
-app.listen(3000, () => {
-    console.log('Servidor corriendo en el puerto: ' + 3000);
+app.listen(PORT, () => {
+    console.log('Servidor corriendo en el puerto: ' + PORT);
 });
